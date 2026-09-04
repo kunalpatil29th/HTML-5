@@ -43,14 +43,29 @@
 // }
 // console.log("Code before if ");
 
-let str = "apple";
-if((str[0]=== 'a')&&(str.length > 3))
-{
-    console.log("Good");
-}
-else{
-    console.log("Not");
-}
+// let str = "apple";
+// if((str[0]=== 'a')&&(str.length > 3))
+// {
+//     console.log("Good");
+// }
+// else{
+//     console.log("Not");a
+// }
+
+// string method
+// stringName.method()
+
+// string methods
+// let msg = "  Hello  ";
+// msg.trim();
+// console.log(msg);
+
+// // string method
+// let str = "Random string";
+// str.toUpperCase();
+// str.toLowerCase();
+
+
 
 
 
