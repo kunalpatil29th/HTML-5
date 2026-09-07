@@ -49,10 +49,10 @@ for(let i = 0; i<fruits.length; i++){
 
 // loops with arrays
 
-let heroers  = [["ironmen","spindermen", "wondermen"]]
+let heroers  = [["ironmen","spindermen", "wondermen"]]  
 for (let i = 0; i<heroers.length; i++){
     console.log(`List #${i}`);
     for(let j=0; j<heroers[i].length; j++){
         console.log(heroers[i][j]);
     }
-}
+} 
