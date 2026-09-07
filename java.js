@@ -34,6 +34,7 @@ for(let i=n; i<=n*10; i=i+n){
 }
 
 
+
 // nested for loop
 
 for(let i = 1; i<=3; i++){
