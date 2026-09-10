@@ -33,4 +33,8 @@ const sum = function(a,b){
     return a + b;
 }
 
+
 sum(3 ,4 );
+
+// ever function method
+[1,2,3,4,5].every((el)=>(el%2==0));
