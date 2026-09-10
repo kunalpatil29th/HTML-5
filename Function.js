@@ -38,3 +38,10 @@ sum(3 ,4 );
 
 // ever function method
 [1,2,3,4,5].every((el)=>(el%2==0));
+
+// some function method
+[1,2,3,4].some((el)=>(el%2==0));
+
+// reduce method JS
+
+[1,2,3,4].reduce((res,el)=>(res+el));
