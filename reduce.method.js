@@ -47,3 +47,6 @@ let result = num.reduce((max,el)=>{
     }
   });
   console.log(result);
+
+
+  
