@@ -14,3 +14,4 @@ function sum(a, b = 3){
 }
 
 console.log(sum(3, 5))
+console.log(sum(5))
