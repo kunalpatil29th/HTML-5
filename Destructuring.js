@@ -11,3 +11,17 @@ console.log(b);
 
 console.log(rest);
 // Expected output: Array [30, 40, 50
+
+
+// Destructiong with objects
+const student = {
+    name : "kunal",
+    class : "3year",
+    age : 20,
+    subject : ["Hindi", "Math","Eng","Sci"],
+    username : "Kunal@123",
+    password: 1234,
+};
+
+const {username:user,password:pass}=student;
+console.log(user);
