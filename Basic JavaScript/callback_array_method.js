@@ -27,6 +27,3 @@ let double = num.map(function(el){
     return el*2;
 });
 
-/// dom document object model
-
-document.getElementById("demo").innerHTML = "Hello World";
