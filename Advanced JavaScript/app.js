@@ -1,39 +1,20 @@
-// let btn = document.querySelector('button');
-// console.dir(btn);
-
-// // onclick console.log th button clicked
-
-// btn.onclick = function(){
-//     console.log('button clicked');
-// }
+let btn = document.querySelector("button");
+btn.addEventListener("click", function(){
+    console.log("genrate random color");
+});
 
 
-// onmouseover console.log the button hovered
-btn.onmouseover = function(){
-    console.log('button hovered');
+function getRandomColor(){
+    let red = Math.floor(Math.random()*255);
+    let green = Math.floor(Math.random()*255);
+    let blue = Math.floor(Math.random()*255);
+
+
+    let color = `(${red},${green}, ${blue})`;
+    return color;
+
+
+
 }
-
-
-// Event Listener
-
-// addEventListener('event', callback function)
-
-// addEventListener('event', function(){
-
-btn.addEventListener('click', function(){
-    console.log('button clicked');
-});
-
-// double click
-
-btn.addEventListener('dblclick', function(){
-    console.log('button double clicked');
-});
-
-
-
-
-
-
 
 
