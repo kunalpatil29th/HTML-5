@@ -26,3 +26,7 @@ let num = [1,2,4 ,5,6 ];
 let double = num.map(function(el){
     return el*2;
 });
+
+/// dom document object model
+
+document.getElementById("demo").innerHTML = "Hello World";
