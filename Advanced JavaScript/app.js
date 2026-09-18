@@ -13,6 +13,7 @@ function getRandomColor(){
     let color = `(${red},${green}, ${blue})`;
     return color;
 
+    
 
 
 }
