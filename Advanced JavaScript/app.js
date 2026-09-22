@@ -1,4 +1,7 @@
 let form = document.querySelector("form");
+console.log(form);
+
+
 
 form.addEventListener("submit", function(){
 
@@ -8,6 +11,8 @@ form.addEventListener("submit", function(){
 let from = document.querySelector("from");
 
 form.addEventListener("animationcancel");
+
+
 
 
 
