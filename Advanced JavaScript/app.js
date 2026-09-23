@@ -12,6 +12,7 @@ let from = document.querySelector("from");
 
 form.addEventListener("animationcancel");
 
+form.addEventListener("abort")
 
 
 
