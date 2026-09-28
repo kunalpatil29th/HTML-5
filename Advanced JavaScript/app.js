@@ -12,12 +12,3 @@ function three(){
 
     
 }
-
-
-
-
-
-
-
-
-
