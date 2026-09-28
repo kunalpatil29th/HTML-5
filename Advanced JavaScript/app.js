@@ -1,16 +1,17 @@
-let form = document.querySelector("form");
-console.log(form);
+function one(){
+    return 1;
+}
 
-form.addEventListener("submit", function(){
+function two(){
+    return one()+one();
+}
+
+function three(){
+    let ans = two()+one();
+    console.log(ans);
+}
 
 
-    alert("form submitted");
-});
-let from = document.querySelector("from");
-
-form.addEventListener("animationcancel");
-
-form.addEventListener("abort")
 
 
 
