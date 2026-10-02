@@ -1,18 +1,11 @@
-function one(){
-    return 1;
-}
 
+// asychronous 
 
+setTimeout(function(){
+    console.log("apna college");
+},2000);
+setTimeout(function(){
+    console.log("Kunal Patil");
+},2000);
 
-function two(){
-    return one()+one();
-}
-
-function three(){
-    let ans = two()+one();
-    console.log(ans);
-
-    
-}
-
-// function javascript function call 
+console.log("Hello..a");
