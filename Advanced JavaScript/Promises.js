@@ -9,3 +9,18 @@ const fetchUserData = new Promise((resolve, reject) => {
     }
   }, 1000);
 });
+
+
+// Promises in javascript
+
+const promise = new Promise((resolve, reject) => {
+    // Asynchronous operation
+
+    let success = true;
+
+    if (success) {
+        resolve("Task Completed!");
+    } else {
+        reject("Task Failed!");
+    }
+});
