@@ -23,4 +23,15 @@ const promise = new Promise((resolve, reject) => {
     } else {
         reject("Task Failed!");
     }
+}); 
+
+
+// Promises two method
+
+let request = saveDB = ("Kunal Patil");
+request.then(()=>{
+    console.log("Promises resloved");
+})
+.catch(()=>{
+    console.log(" Promises Rejected")
 });
