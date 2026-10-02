@@ -36,3 +36,23 @@ request.then(()=>{
     console.log(" Promises Rejected")
 });
 
+// Example: Promise Chaining
+const add = new Promise((resolve, reject) => {
+    resolve(10);
+});
+
+promise
+    .then((num) => {
+        console.log(num);
+        return num * 2;
+    })
+    .then((num) => {
+        console.log(num);
+        return num * 3;
+    })
+    .then((num) => {
+        console.log(num);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
